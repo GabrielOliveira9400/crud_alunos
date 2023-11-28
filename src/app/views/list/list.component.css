@@ -1,0 +1,6 @@
+/* Estilizando o botão para que fique no canto superior direito */
+.add-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}

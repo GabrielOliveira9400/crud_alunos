@@ -1,0 +1,24 @@
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput formControlName="name">
+    <mat-error *ngIf="formulario.get('name')?.hasError('required')">Nome é obrigatório</mat-error>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput formControlName="email">
+    <mat-error *ngIf="formulario.get('email')?.hasError('required')">Email é obrigatório</mat-error>
+    <mat-error *ngIf="formulario.get('email')?.hasError('email')">Email inválido</mat-error>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Número de Matrícula</mat-label>
+    <input matInput formControlName="matricula">
+    <mat-error *ngIf="formulario.get('matricula')?.hasError('required')">Número de Matrícula é obrigatório</mat-error>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">    {{ modoEdicao ? 'Atualizar Estudante' : 'Adicionar Estudante' }}</button>
+  <button mat-raised-button color="accent" type="button" (click)="voltarPagina()" style="width: 176px">Voltar</button>
+
+</form>
