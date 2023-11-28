@@ -1,0 +1,52 @@
+[
+  {
+    "nome": "João Silva",
+    "email": "joao.silva@example.com",
+    "numeroMatricula": "2023001"
+  },
+  {
+    "nome": "Maria Oliveira",
+    "email": "maria.oliveira@example.com",
+    "numeroMatricula": "2023002"
+  },
+  {
+    "nome": "Carlos Santos",
+    "email": "carlos.santos@example.com",
+    "numeroMatricula": "2023003"
+  },
+  {
+    "nome": "Ana Souza",
+    "email": "ana.souza@example.com",
+    "numeroMatricula": "2023004"
+  },
+  {
+    "nome": "Pedro Pereira",
+    "email": "pedro.pereira@example.com",
+    "numeroMatricula": "2023005"
+  },
+  {
+    "nome": "Mariana Lima",
+    "email": "mariana.lima@example.com",
+    "numeroMatricula": "2023006"
+  },
+  {
+    "nome": "Lucas Costa",
+    "email": "lucas.costa@example.com",
+    "numeroMatricula": "2023007"
+  },
+  {
+    "nome": "Fernanda Almeida",
+    "email": "fernanda.almeida@example.com",
+    "numeroMatricula": "2023008"
+  },
+  {
+    "nome": "Rafael Oliveira",
+    "email": "rafael.oliveira@example.com",
+    "numeroMatricula": "2023009"
+  },
+  {
+    "nome": "Isabela Santos",
+    "email": "isabela.santos@example.com",
+    "numeroMatricula": "2023010"
+  }
+]
